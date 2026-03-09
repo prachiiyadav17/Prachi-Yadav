@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Prachi Yadav portfolio - AI and Data Science student building practical AI applications." />
+  <title>Prachi Yadav | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <!-- Particle Canvas Background -->
+  <canvas id="particleCanvas" class="particle-canvas" aria-hidden="true"></canvas>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">PRACHI YADAV</a>
+      <nav aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT ME</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero container reveal">
+      <p class="hero-kicker">H I! I&apos;M</p>
+      <h1 data-text="PRACHI YADAV">PRACHI YADAV</h1>
+      <p class="hero-role">I&apos;M A <span>Developer</span></p>
+
+      <p class="scroll-cue">Continue scrolling</p>
+    </section>
+
+    <section id="about" class="container section reveal">
+      <h2>About Me</h2>
+      <p>
+        Hello there! My name is Prachi Yadav. I am a student at Dr. D.Y. Patil
+        School Of Science &amp; Technology pursuing BTech in Artificial
+        Intelligence and Data Science.
+      </p>
+      <p>
+        I focus on practical AI projects including offline assistants, voice
+        analysis, and beginner-friendly web tools. I enjoy solving hard
+        problems, learning quickly, and building technology that has an
+        impact.
+      </p>
+    </section>
+
+    <section id="projects" class="container section reveal">
+      <h2>Projects</h2>
+      <p class="subtext">Try drag the cards around</p>
+
+      <div id="dragStage" class="drag-stage">
+        <article class="project-card" data-x="20" data-y="20" data-r="-2">
+          <p class="year">2026</p>
+          <h3>Jarvis - Offline AI Desktop Assistant</h3>
+          <p>
+            Modular local-first desktop assistant built with Python. Supports
+            text and voice commands, automates common tasks, and responds via
+            on-screen + spoken feedback.
+          </p>
+          <p class="stack">Skills: Python, NLP, Text-to-Speech, Pyaudio, Voice Assistant Development</p>
+          <a href="https://github.com/prachiiyadav17/Jarvis-AI-that-Can-Run-Your-Computer" target="_blank"
+            rel="noreferrer">View Repo →</a>
+        </article>
+
+        <article class="project-card" data-x="390" data-y="70" data-r="1.5">
+          <p class="year">2025</p>
+          <h3>Task Manager</h3>
+          <p>
+            User-friendly Flask web app with HTML frontend for core CRUD task
+            workflows. Built as a clean beginner-friendly web development project.
+          </p>
+          <p class="stack">Skills: HTML, Python, Project Planning</p>
+        </article>
+
+        <article class="project-card" data-x="170" data-y="320" data-r="-1">
+          <p class="year">2025</p>
+          <h3>AI Voice Detection</h3>
+          <p>
+            AI voice detector that analyzes MP3 input and classifies whether
+            the voice is human or AI-generated.
+          </p>
+          <p class="stack">Skills: Python, Machine Learning (Basics), Data Handling</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section reveal">
+      <h2>My Work</h2>
+      <div class="work-grid">
+        <article>
+          <h3>Jarvis AI Assistant</h3>
+          <a href="https://github.com/prachiiyadav17/Jarvis-AI-that-Can-Run-Your-Computer" target="_blank"
+            rel="noreferrer">github.com/prachiiyadav17/Jarvis-AI-that-Can-Run-Your-Computer</a>
+          <p class="year">2026</p>
+        </article>
+        <article>
+          <h3>Portfolio Website</h3>
+          <a href="#home">Current Website</a>
+          <p class="year">2026</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section reveal">
+      <h2>What I Use</h2>
+      <ul class="chip-list">
+        <li>Python</li>
+        <li>Natural Language Processing</li>
+        <li>Text-to-Speech</li>
+        <li>Pyaudio</li>
+        <li>Flask</li>
+        <li>HTML &amp; CSS</li>
+        <li>Machine Learning</li>
+        <li>Data Handling</li>
+        <li>Gen AI</li>
+      </ul>
+    </section>
+
+    <section class="container section reveal">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <article>
+          <p class="year">Mar 2026 – Present</p>
+          <h3>Gen AI Intern</h3>
+          <p class="meta">Prodigy InfoTech • Pune District, Maharashtra, India</p>
+          <p>Working on various Gen AI projects from training models to understanding foundational algorithms.</p>
+        </article>
+        <article>
+          <p class="year">Aug 2025 – Nov 2025</p>
+          <h3>Internshala Student Partner Program</h3>
+          <p class="meta">Internshala</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section reveal">
+      <h2>Education &amp; Certifications</h2>
+      <div class="two-col">
+        <article class="panel">
+          <h3>Education</h3>
+          <p>Dr. D.Y. Patil School Of Science &amp; Technology — BTech in Artificial Intelligence and Data Science (Aug
+            2025 – Sep 2029)</p>
+          <p>St. Joseph Bethany Convent School</p>
+        </article>
+        <article class="panel">
+          <h3>Certifications</h3>
+          <ul>
+            <li>Software Engineering Job Simulation</li>
+            <li>Gemini Certified University Student</li>
+            <li>Certificate of Finalist — AI Impact Summit 2026</li>
+            <li>Building &amp; Deploying Applications with Google AI Studio</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container section reveal">
+      <h2>Contact Me</h2>
+      <form class="contact-form" action="#" method="post">
+        <label>
+          Name *
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Email *
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Any Additional Details?
+          <textarea name="details" rows="4"></textarea>
+        </label>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-links">
+        <a href="mailto:prachiyadav00017@gmail.com">✉ Email Prachi Yadav</a>
+        <a href="https://www.linkedin.com/in/prachi-yadav-439095365/" target="_blank" rel="noreferrer">↗ Connect on
+          LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container reveal">
+    <a href="#home" class="back-top">BACK TO TOP</a>
+    <p>© <span id="year"></span> Prachi Yadav. All rights reserved.</p>
+    <p class="foot-note">Designed and developed as a personal portfolio.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
