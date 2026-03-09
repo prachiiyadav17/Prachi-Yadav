@@ -775,9 +775,14 @@ h3 {
   transform: translateY(0);
 }
 
+#contact {
+  text-align: center;
+}
+
 .contact-links {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0.8rem;
   margin-top: 1.4rem;
 }
